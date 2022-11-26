@@ -18,7 +18,7 @@ int main()
 	{
 		cout<<"Please enter temprature in cel";
 		cin>>cel;
-		fah = cel*(9/5+32);
+		fah = cel*(9/5)+32;
 		cout<<"Converted temprature in fah is"<<fah<<endl;
 	}
 	cout<<"Thank You";
